@@ -1,5 +1,5 @@
 {
-	"name": "remcob00-cordova-youtube-android-player-api",
+	"name": "ydatech-from-remcob00-cordova-youtube-android-player-api-with-player-jar",
 	"version": "2.0.6",
 	"description": "Cordova / Phonegap YouTube Android Player API plugin.",
 	"keywords": [
@@ -12,21 +12,21 @@
 		"player api"
 	],
 	
-	"homepage": "https://github.com/RemcoB00/cordova-phonegap_youtube_player_api_android",
+	"homepage": "https://github.com/ydatech/cordova-phonegap_youtube_player_api_android",
 	"bugs": {
 		"url": "https://github.com/RemcoB00/cordova-phonegap_youtube_player_api_android/issues",
 		"email": "info@remcob00.com"
 	},
 	"license": "MIT",
 	"author": {
-		"name": "Remco Beugels",
-		"email": "info@remcob00.com",
-		"url": "https://github.com/RemcoB00"
+		"name": "Yuda Sukmana",
+		"email": "yudasukmana1992@gmail.com",
+		"url": "https://github.com/ydatech"
 	},
 	
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RemcoB00/cordova-phonegap_youtube_player_api_android.git"
+		"url": "https://github.com/ydatech/cordova-phonegap_youtube_player_api_android.git"
 	},
 	"dependencies": {
 		"adm-zip": ">=0.4.7"
@@ -35,7 +35,7 @@
 		"install": "node install.js && cd ../.. && cordova plugin add node_modules/remcob00-cordova-youtube-android-player-api && npm uninstall remcob00-cordova-youtube-android-player-api"
 	},
 	"cordova": {
-		"id": "remcob00-cordova-youtube-android-player-api",
+		"id": "ydatech-from-remcob00-cordova-youtube-android-player-api-with-player-jar",
 		"platforms": [
 			"android"
 		]
