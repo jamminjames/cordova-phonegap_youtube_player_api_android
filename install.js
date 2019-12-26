@@ -5,7 +5,7 @@ console.log("Installing the Cordova / Phonegap YouTube Android Player API");
 
 console.log("Downloading the YouTube Android Player API library from the YouTube developer site...");
 
-http.get("https://developers.google.com/youtube/android/player/downloads/YouTubeAndroidPlayerApi-1.2.1.zip", function(response) {
+http.get("https://developers.google.com/youtube/android/player/downloads/YouTubeAndroidPlayerApi-1.2.2.zip", function(response) {
 	var data = [];
 	var dataLength = 0;
 	
