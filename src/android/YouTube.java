@@ -25,9 +25,6 @@ import com.google.android.youtube.player.YouTubeStandalonePlayer;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-
 public class YouTube extends CordovaPlugin {
 	
 	@Override
@@ -107,7 +104,6 @@ public class YouTube extends CordovaPlugin {
 			} 
 			else {
 				result.getErrorDialog(cordova.getActivity(), 0).show();
-				JOptionPane.showInputDialog(null,"Error: YouTube may be disabled or not installed.");
 			}
 		}
 	}
