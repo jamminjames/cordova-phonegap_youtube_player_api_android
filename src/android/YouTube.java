@@ -101,6 +101,9 @@ public class YouTube extends CordovaPlugin {
 
 			if(result.isUserRecoverableError()) {
 				result.getErrorDialog(cordova.getActivity(), 0).show();
+			} 
+			else {
+				alert("Error: YouTube may not be installed or may be disabled.");
 			}
 		}
 	}
