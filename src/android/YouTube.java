@@ -103,7 +103,7 @@ public class YouTube extends CordovaPlugin {
 				result.getErrorDialog(cordova.getActivity(), 0).show();
 			} 
 			else {
-				alert("Error: YouTube may not be installed or may be disabled.");
+				JOptionPane.showMessageDialog(null, "Error: YouTube may not be installed or may be disabled.");
 			}
 		}
 	}
